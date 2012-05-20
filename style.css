@@ -1,0 +1,278 @@
+/*BASE LAYOUT SECTION*/  
+
+body {
+	font-family: verdana, sans-serif; 
+	margin: 20px; 
+	background-color: #DADADA; 
+}     
+
+#container {
+	margin-left: auto;    
+	margin-right: auto; 
+	background-color: #82888A;  
+	border: 1px solid #5D5D5D;
+	width: 800px;
+	height: 1200px;
+} 
+
+#frame {
+	position: absolute;  
+	margin-top: 22px; 
+	margin-left: 22px; 
+	height: 756px; 
+	width: 756px;
+	background: #E7EAEA;
+} 
+
+.reveal {
+	background: #CDD3D5; 
+}
+
+#left-upper {
+	position: absolute;
+	margin: 22px;
+	width: 195px;
+	height: 195px;
+}
+
+#right-upper {
+	position: absolute; 
+	margin-top: 22px; 
+	margin-left: 260px;
+	width: 518px;
+	height: 195px; 
+}
+  
+#left-lower {
+	position: absolute;
+	margin-top: 260px; 
+	margin-left: 22px;
+	width: 195px;
+	height: 518px;
+}
+ 
+#right-lower {
+	position: absolute;
+	margin-top: 260px; 
+	margin-left: 260px; 
+	width: 518px;
+	height: 518px;
+}
+
+/*LOGO SECTION*/  
+
+#logo {
+	position: absolute;
+	margin: 22px;
+	background-image: url("image/logo_hover.png"); 
+	background-repeat: no-repeat;
+}
+  
+#logo a {
+	position: absolute; 
+	background-image: url("image/logo_3.png"); 
+	background-repeat: no-repeat;
+} 
+
+#logo a:hover {
+	position: absolute;
+	background: transparent;
+}
+
+.logo_class { 
+	width: 175px;
+	height: 175px;
+}   
+
+/*PANE SECTION*/ 
+  
+#pane_all {
+	position: absolute; 
+	margin-top:22px;   
+	margin-left: 280px;
+	width: 498px;
+	height: 175px;
+	   
+}
+
+#pane_button_1 {
+	position: absolute; 
+	background-image: url("image/dwg_hover.png"); 
+	background-repeat: no-repeat;
+} 
+
+#pane_button_1 a {
+	position: absolute; 
+	background-image: url("image/dwg_dormant.png"); 
+	background-repeat: no-repeat;
+} 
+
+#pane_button_2 {
+	position: absolute;
+	margin-left: 166px;
+	background-image: url("image/3d_hover.png"); 
+	background-repeat: no-repeat;
+}
+
+#pane_button_2 a {
+	position: absolute;
+	background-image: url("image/3d_dormant.png"); 
+	background-repeat: no-repeat;
+} 
+
+#pane_button_3 {
+	position: absolute;
+	margin-left: 332px;
+	background-image: url("image/photo_hover.png"); 
+	background-repeat: no-repeat; 
+}    
+
+#pane_button_3 a {
+	position: absolute;
+	background-image: url("image/photo_dormant.png"); 
+	background-repeat: no-repeat; 
+}
+
+.pane_button {
+	width: 166px;
+	height: 175px;  
+}  
+
+#pane_button_1 a:hover{
+	background: transparent;	
+}
+
+#pane_button_2 a:hover{
+	background: transparent;	
+}
+
+#pane_button_3 a:hover{
+	background: transparent;
+}
+ 
+/*DRAWER SECTION*/
+#drawer_all {
+	position: absolute;  
+	margin-top: 280px; 
+	margin-left: 22px; 
+	height: 498px; 
+	width: 175px;
+	background: #F1EEC9;
+}   
+
+#drawer_button_1 {
+	position: absolute;
+	width: 175px; 
+	height: 166px; 
+} 
+
+#drawer_button_2 {
+	position: absolute;
+	margin-top: 166px;
+	width: 175px; 
+	height: 166px; 
+}
+
+#drawer_button_3 {
+	position: absolute;
+	margin-top: 332px;
+	width: 175px; 
+	height: 166px; 
+}  
+
+#drawer_all a:hover {
+	background: #FFFCDB;
+}
+
+
+/*IMAGE GALLERY SECTION*/
+
+#image-gallery {
+	position: absolute;  
+	margin-top: 280px; 
+	margin-left: 280px; 
+	height: 498px; 
+	width: 498px;
+	background: white; 
+} 
+
+#image-container {
+	position: absolute;
+	height: 476px;
+	width: 476px;
+	margin-top: 11px;
+	margin-left: 11px;
+	background: white; 
+} 
+ 
+#image-container a:hover {
+	background: #B3B29B;
+}
+
+#box_1 {
+	position: absolute; 
+} 
+
+#box_2 {
+	position: absolute;
+	margin-top: none;
+	margin-left: 162px;
+} 
+
+#box_3 {
+	position: absolute;
+	margin-top: none;
+	margin-left: 324px;
+} 
+
+#box_4 {
+	position: absolute;
+	margin-top: 162px;
+} 
+
+#box_5 {
+	position: absolute;
+	margin-top: 162px;  
+	margin-left: 162px; 
+} 
+
+#box_6 {
+	position: absolute;
+	margin-top: 162px;  
+	margin-left: 324px;
+} 
+
+#box_7 {
+	position: absolute;
+	margin-top: 324px;
+} 
+
+#box_8 {
+	position: absolute;
+	margin-top: 324px;  
+	margin-left: 162px;
+} 
+
+#box_9 {
+	position: absolute;
+	margin-top: 324px;   
+	margin-left: 324px; 
+}
+
+.image_box {
+	height: 144px; 
+	width: 144px;
+	background: #9EB6C0;  
+	border: 4px solid #CCCFD2;
+}
+ 
+/*PULLDOW SECTION*/  
+#pulldown { 
+	position: absolute;  
+	margin-top: 800px; 
+	margin-left: 22px; 
+	height: 378px; 
+	width: 756px;
+	background: white;
+} 
+
