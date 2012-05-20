@@ -6,6 +6,11 @@ body {
 	background-color: #DADADA; 
 }     
 
+p {
+	border: 2px solid red
+	
+}
+
 #container {
 	margin-left: auto;    
 	margin-right: auto; 
