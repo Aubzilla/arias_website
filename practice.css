@@ -1,0 +1,44 @@
+/*BASE LAYOUT SECTION*/  
+
+
+body {
+	border: 1px dashed #353535;
+	background-color: black;
+}  
+
+h1 {
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 100px;
+	background-color: maroon;
+	font-family: monospace;
+	color: white;
+}   
+
+p {
+	border-bottom: 1px dashed #353535;
+	z-index: 2;
+	font-family: arial;
+	border-left: 1px dotted yellow;
+	padding: 100px;
+	color: white;
+	margin: 0px;
+}
+
+#box {
+	margin-top: 0px;
+	margin-left: auto;    
+	margin-right: auto; 
+	background-color: none;  
+	border: 10px solid orange;
+	border-left: 2px dotted red;
+	width: 700px;
+	height: 1200px;
+} 
+
+
+
+
+
+
