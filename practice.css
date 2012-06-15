@@ -15,6 +15,7 @@ body {
 
 #square_1 {
 	float: right;
+	background-color: pink;
 	border-left: 1px dashed grey;
 	width: 1112px;
 	height: 1112px;
@@ -22,7 +23,8 @@ body {
 
 #square_2 {
 	position: absolute;
-	top:424px;
+	background-color: violet;
+	top:425px;
 	border-top: 1px dashed grey;
 	width: 688px;
 	height: 688px;
@@ -32,31 +34,54 @@ body {
 	position: absolute;
 	background-color: green;
 	border-right: 1px dashed grey;
-	width: 424px;
-	height: 424px;
+	width: 425px;
+	height: 425px;
 	z-index: -1;
 }
 
 #square_4 {
 	position: absolute;
-	left: 424px;
+	left: 425px;
 	background-color: yellow;
 	border-bottom: 1px dashed grey;
-	width: 264px;
-	height: 264px;
+	width: 263px;
+	height: 263px;
 	z-index: -2;
 }
 
 #square_5 {
 	position: absolute;
-	top: 265px;
-	left:528px;
+	top: 263px;
+	left:525px;
 	background-color: purple;
 	border-left: 1px dashed grey;
-	width: 160px;
-	height: 160px;
+	width: 163px;
+	height: 163px;
 	z-index: -3;
 }
+
+#square_6 {
+	position: absolute;
+	top: 325px;
+	left:425px;
+	background-color: orange;
+	border-top: 1px dashed grey;
+	width: 100px;
+	height: 100px;
+	z-index: -3;
+}
+
+#square_7 {
+	position: absolute;
+	top: 263px;
+	left:425px;
+	background-color: white;
+	border-right: 1px dashed grey;
+	width: 62px;
+	height: 62px;
+	z-index: -3;
+}
+
 
 
 
