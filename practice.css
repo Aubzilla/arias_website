@@ -15,7 +15,7 @@ body {
 
 #square_1 {
 	float: right;
-	background-color: pink;
+	background-color: none;
 	border-left: 1px dashed grey;
 	width: 1112px;
 	height: 1112px;
@@ -23,7 +23,7 @@ body {
 
 #square_2 {
 	position: absolute;
-	background-color: violet;
+	background-color: none;
 	top:425px;
 	border-top: 1px dashed grey;
 	width: 688px;
@@ -32,7 +32,7 @@ body {
 
 #square_3 {
 	position: absolute;
-	background-color: green;
+	background-color: none;
 	border-right: 1px dashed grey;
 	width: 425px;
 	height: 425px;
@@ -42,7 +42,7 @@ body {
 #square_4 {
 	position: absolute;
 	left: 425px;
-	background-color: yellow;
+	background-color: none;
 	border-bottom: 1px dashed grey;
 	width: 263px;
 	height: 263px;
@@ -53,7 +53,7 @@ body {
 	position: absolute;
 	top: 263px;
 	left:525px;
-	background-color: purple;
+	background-color: none;
 	border-left: 1px dashed grey;
 	width: 163px;
 	height: 163px;
@@ -64,7 +64,7 @@ body {
 	position: absolute;
 	top: 325px;
 	left:425px;
-	background-color: orange;
+	background-color: none;
 	border-top: 1px dashed grey;
 	width: 100px;
 	height: 100px;
@@ -75,7 +75,7 @@ body {
 	position: absolute;
 	top: 263px;
 	left:425px;
-	background-color: white;
+	background-color: none;
 	border-right: 1px dashed grey;
 	width: 62px;
 	height: 62px;
@@ -86,7 +86,7 @@ body {
 	position: absolute;
 	top: 263px;
 	left:488px;
-	background-color: blue;
+	background-color: none;
 	border-bottom: 1px dashed grey;
 	width: 38px;
 	height: 38px;
@@ -97,7 +97,7 @@ body {
 	position: absolute;
 	top: 301px;
 	left:502px;
-	background-color: lime;
+	background-color: none;
 	border-left: 1px dashed grey;
 	width: 24px;
 	height: 24px;
@@ -108,8 +108,8 @@ body {
 	position: absolute;
 	top: 311px;
 	left:488px;
-	background-color: red;
-	border-left: 1px dashed grey;
+	background-color: none;
+	border-top: 1px dashed grey;
 	width: 14px;
 	height: 14px;
 	z-index: -6;
