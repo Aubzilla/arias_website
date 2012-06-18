@@ -24,7 +24,7 @@ body {
 #square_2 {
 	position: absolute;
 	background-color: none;
-	top:425px;
+	top:424px;
 	border-top: 1px dashed grey;
 	width: 688px;
 	height: 688px;
@@ -33,30 +33,31 @@ body {
 #square_3 {
 	position: absolute;
 	background-color: none;
+	color: grey;
 	border-right: 1px dashed grey;
-	width: 425px;
-	height: 425px;
+	width: 424px;
+	height: 424px;
 	z-index: -1;
 }
 
 #square_4 {
 	position: absolute;
-	left: 425px;
+	left: 424px;
 	background-color: none;
 	border-bottom: 1px dashed grey;
-	width: 263px;
-	height: 263px;
+	width: 264px;
+	height: 264px;
 	z-index: -2;
 }
 
 #square_5 {
 	position: absolute;
-	top: 263px;
+	top: 264px;
 	left:525px;
 	background-color: none;
 	border-left: 1px dashed grey;
-	width: 163px;
-	height: 163px;
+	width: 160px;
+	height: 160px;
 	z-index: -3;
 }
 
