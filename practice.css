@@ -1,40 +1,45 @@
 body {
 	margin: 0px;
-	/*border: 1px dashed grey;*/
+	/*border: 1px dashed #494949;*/
 	background-color: black;
 }  
+
+.number {
+	font-size: 1em;
+	color: black;
+}
 
 #golden_rectangle {
 	/*margin-top: 10px;
 	margin-left: 10px;*/
 	background-color: none;  
-	border: 1px dashed grey;
-	width: 1800px;
-	height: 1112px;
+	border: 1px dashed #494949;
+	width: 1796px;
+	height: 1110px;
 } 
 
 #square_1 {
 	float: right;
 	background-color: none;
-	border-left: 1px dashed grey;
-	width: 1112px;
-	height: 1112px;
+	border-left: 1px dashed #494949;
+	width: 1110px;
+	height: 1110px;
 }
 
 #square_2 {
 	position: absolute;
-	background-color: none;
+	background-color: #8D8B3B;
 	top:424px;
-	border-top: 1px dashed grey;
-	width: 688px;
-	height: 688px;
+	border-top: 1px dashed #494949;
+	width: 686px;
+	height: 686px;
+	z-height: 1;
 }
 
 #square_3 {
 	position: absolute;
-	background-color: none;
-	color: grey;
-	border-right: 1px dashed grey;
+	background-color: white;
+	border-right: 1px dashed #494949;
 	width: 424px;
 	height: 424px;
 	z-index: -1;
@@ -42,22 +47,22 @@ body {
 
 #square_4 {
 	position: absolute;
-	left: 424px;
-	background-color: none;
-	border-bottom: 1px dashed grey;
-	width: 264px;
-	height: 264px;
+	left: 425px;
+	background-color: blue;
+	border-bottom: 1px dashed #494949;
+	width: 262px;
+	height: 262px;
 	z-index: -2;
 }
 
 #square_5 {
 	position: absolute;
-	top: 264px;
-	left:525px;
-	background-color: none;
-	border-left: 1px dashed grey;
-	width: 160px;
-	height: 160px;
+	top: 262px;
+	left:524px;
+	background-color: grey;
+	border-left: 1px dashed #494949;
+	width: 162px;
+	height: 162px;
 	z-index: -3;
 }
 
@@ -65,10 +70,10 @@ body {
 	position: absolute;
 	top: 325px;
 	left:425px;
-	background-color: none;
-	border-top: 1px dashed grey;
-	width: 100px;
-	height: 100px;
+	background-color: red;
+	border-top: 1px dashed #494949;
+	width: 99px;
+	height: 99px;
 	z-index: -3;
 }
 
@@ -76,8 +81,8 @@ body {
 	position: absolute;
 	top: 263px;
 	left:425px;
-	background-color: none;
-	border-right: 1px dashed grey;
+	background-color: lime;
+	border-right: 1px dashed #494949;
 	width: 62px;
 	height: 62px;
 	z-index: -3;
@@ -87,8 +92,8 @@ body {
 	position: absolute;
 	top: 263px;
 	left:488px;
-	background-color: none;
-	border-bottom: 1px dashed grey;
+	background-color: brown;
+	border-bottom: 1px dashed #494949;
 	width: 38px;
 	height: 38px;
 	z-index: -4;
@@ -98,8 +103,8 @@ body {
 	position: absolute;
 	top: 301px;
 	left:502px;
-	background-color: none;
-	border-left: 1px dashed grey;
+	background-color: pink;
+	border-left: 1px dashed #494949;
 	width: 24px;
 	height: 24px;
 	z-index: -5;
@@ -110,7 +115,7 @@ body {
 	top: 311px;
 	left:488px;
 	background-color: none;
-	border-top: 1px dashed grey;
+	border-top: 1px dashed #494949;
 	width: 14px;
 	height: 14px;
 	z-index: -6;
