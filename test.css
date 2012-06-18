@@ -1,0 +1,52 @@
+body {
+	margin: 0px;
+	/*border: 1px dashed #494949;*/
+	background-color: black;
+}  
+
+.number {
+	font-size: 1em;
+	color: black;
+}
+
+#golden_rectangle {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: none;  
+	border: 1px dashed #494949;
+	width: 1796px;
+	height: 1110px;
+} 
+
+#square_1 {
+	position: absolute;
+	left: 50px;
+	background-color: none;
+	border-top: 5px dashed red;
+	border-bottom: 1px dashed red;
+	border-right: 1px dashed red;
+	border-left: 1px dashed red;
+	width: 600px;
+	height: 600px;
+	z-index: -1;
+}
+#square_2 {
+	position: absolute;
+	left: 50px;
+	background-color: yellow;
+	border-left: 20px dashed #494949;
+	border-right: 20px dashed orange;
+	width: 600px;
+	height: 600px;
+	z-index: -2;
+}
+
+
+
+
+
+
+
+
+
