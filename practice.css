@@ -1,7 +1,8 @@
 body {
 	margin: 0px;
-	/*border: 1px solid #494949;*/
+	/*border: 1px dashed #494949;*/
 	background-color: #181818;
+	height: 1300px;
 }  
 
 .number {
@@ -15,10 +16,10 @@ a:hover {
 
 #golden_rectangle {
 	position: absolute;
-	top: 10px;
-	left: 10px;
+	top: 50px;
+	left: 50px;
 	background-color: none;  
-	border: 1px solid #494949;
+	border: 1px dashed #494949;
 	width: 1796px;
 	height: 1110px;
 } 
@@ -26,8 +27,8 @@ a:hover {
 #square_1 {
 	position: absolute;
 	left: 686px;
-	background-color: black;
-	border-left: 1px solid #494949;
+	background-color: none;
+	border-left: 1px dashed #494949;
 	width: 1109px;
 	height: 1110px;
 	z-index: -1;
@@ -37,7 +38,7 @@ a:hover {
 	position: absolute;
 	background-color: none;
 	top:424px;
-	border-top: 1px solid #494949;
+	border-top: 1px dashed #494949;
 	width: 686px;
 	height: 685px;
 	z-index: -2;
@@ -46,7 +47,7 @@ a:hover {
 #square_3 {
 	position: absolute;
 	background-color: black;
-	border-right: 1px solid #494949;
+	border-right: 1px dashed #494949;
 	width: 423px;
 	height: 424px;
 	z-index: -3;
@@ -56,7 +57,7 @@ a:hover {
 	position: absolute;
 	left: 424px;
 	background-color: black;
-	border-bottom: 1px solid #494949;
+	border-bottom: 1px dashed #494949;
 	width: 262px;
 	height: 261px;
 	z-index: -4;
@@ -67,7 +68,7 @@ a:hover {
 	top: 262px;
 	left:524px;
 	background-color: #006666;
-	border-left: 1px solid #494949;
+	border-left: 1px dashed #494949;
 	width: 161px;
 	height: 162px;
 	z-index: -5;
@@ -78,7 +79,7 @@ a:hover {
 	top: 324px;
 	left:424px;
 	background-color: none;
-	border-top: 1px solid #494949;
+	border-top: 1px dashed #494949;
 	width: 100px;
 	height: 99px;
 	z-index: -6;
@@ -88,8 +89,8 @@ a:hover {
 	position: absolute;
 	top: 262px;
 	left:424px;
-	background-color: #666666;
-	border-right: 1px solid #494949;
+	background-color: none;
+	border-right: 1px dashed #494949;
 	width: 61px;
 	height: 62px;
 	z-index: -7;
@@ -100,7 +101,7 @@ a:hover {
 	top: 262px;
 	left:486px;
 	background-color: none;
-	border-bottom: 1px solid #494949;
+	border-bottom: 1px dashed #494949;
 	width: 38px;
 	height: 37px;
 	z-index: -8;
@@ -111,7 +112,7 @@ a:hover {
 	top: 300px;
 	left:500px;
 	background-color: none;
-	border-left: 1px solid #494949;
+	border-left: 1px dashed #494949;
 	width: 23px;
 	height: 24px;
 	z-index: -9;
@@ -122,7 +123,7 @@ a:hover {
 	top: 310px;
 	left:486px;
 	background-color: maroon;
-	border-top: 1px solid #494949;
+	border-top: 1px dashed #494949;
 	width: 14px;
 	height: 13px;
 	z-index: -10;
@@ -133,7 +134,7 @@ a:hover {
 	top: 300px;
 	left:486px;
 	background-color: none;
-	border-right: 1px solid #494949;
+	border-right: 1px dashed #494949;
 	width: 9px;
 	height: 10px;
 	z-index: -11;
