@@ -10,10 +10,6 @@ body {
 	color: white;
 }
 
-a:hover {
-	background-color: black;
-}
-
 #golden_rectangle {
 	position: absolute;
 	top: 50px;
@@ -56,7 +52,7 @@ a:hover {
 #square_4 {
 	position: absolute;
 	left: 424px;
-	background-color: black;
+	background-color: none;
 	border-bottom: 1px dashed #494949;
 	width: 262px;
 	height: 261px;
@@ -138,6 +134,10 @@ a:hover {
 	width: 9px;
 	height: 10px;
 	z-index: -11;
+}
+
+.red_square {
+	background-color: red;
 }
 
 
