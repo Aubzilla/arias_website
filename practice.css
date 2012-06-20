@@ -3,6 +3,7 @@ body {
 	/*border: 1px dashed #494949;*/
 	background-color: #181818;
 	height: 1300px;
+	z-index: -12;
 }  
 
 .number {
@@ -10,20 +11,29 @@ body {
 	color: white;
 }
 
+.red_square {
+	background-color: red;
+}
+
+.blue_square {
+	border: 3px solid blue;
+}
+
 #golden_rectangle {
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	background-color: none;  
+	background-color: lime;  
 	border: 1px dashed #494949;
 	width: 1796px;
 	height: 1110px;
+	z-index: -12;
 } 
 
 #square_1 {
 	position: absolute;
 	left: 686px;
-	background-color: none;
+	background-color: grey;
 	border-left: 1px dashed #494949;
 	width: 1109px;
 	height: 1110px;
@@ -136,13 +146,7 @@ body {
 	z-index: -11;
 }
 
-.red_square {
-	background-color: red;
-}
 
-.blue_square {
-	border: 3px solid blue;
-}
 
 
 
