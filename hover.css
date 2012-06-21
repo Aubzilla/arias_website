@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+	/*border: 1px dashed #494949;*/
+	background-color: black;
+}  
+
+p {
+	background-color: red;
+	padding: 20px;
+}
+
+#square {
+	background-color: orange;
+	width: 400px;
+	height: 400px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
