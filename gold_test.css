@@ -1,6 +1,7 @@
 body {
 	margin: 0px;
-	background-color: #2F2F2F;
+	/*background-color: #2F2F2F;*/
+	background-color: black;
 	height: 1300px;
 	z-index: -12;
 }  
