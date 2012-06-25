@@ -9,12 +9,39 @@ body {
 	position: absolute;
 	top: 50px;
 	left: 50px;
+	width: 1796px;
+	height: 1110px;
+
+} 
+
+#curve {
+	position: absolute;
+	top: 50px;
+	left: 50px;
 	background-image: url("image/curve.png"); 
 	background-repeat: no-repeat; 
 	width: 1796px;
 	height: 1110px;
 	z-index: 10;
 } 
+
+#square_3 {
+	position: absolute;
+	background-color: DarkSlateGray;
+	width: 424px;
+	height: 424px;
+	z-index: 9;
+}
+
+#square_5 {
+	position: absolute;
+	background-color: DarkSeaGreen;
+	/*background-color: LightSlateGray;*/
+	top: 262px;
+	left:525px;
+	width: 161px;
+	height: 162px;
+}
 
 
 
