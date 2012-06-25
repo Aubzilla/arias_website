@@ -1,0 +1,20 @@
+body {
+	margin: 0px;
+	background-color: #2F2F2F;
+	height: 1300px;
+	z-index: -12;
+}  
+
+#golden_section {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-image: url("image/curve.png"); 
+	background-repeat: no-repeat; 
+	width: 1796px;
+	height: 1110px;
+	z-index: 10;
+} 
+
+
+
