@@ -24,9 +24,13 @@ body {
 	position: absolute;
 	top: 50px;
 	left: 50px;
+<<<<<<< HEAD
 	border: 1px dashed #181818;
 	/*background-image: url("image/curve.png"); 
 	background-repeat: no-repeat; */
+=======
+	border: 1px dashed #494949;
+>>>>>>> dog
 	width: 1796px;
 	height: 1110px;
 	z-index: 10;
@@ -35,7 +39,7 @@ body {
 #square_1 {
 	position: absolute;
 	left: 686px;
-	border-left: 1px dashed #181818;
+	border-left: 1px dashed #494949;
 	width: 1109px;
 	height: 1110px;
 }
@@ -43,14 +47,14 @@ body {
 #square_2 {
 	position: absolute;
 	top:424px;
-	border-top: 1px dashed #181818;
+	border-top: 1px dashed #494949;
 	width: 686px;
 	height: 685px;
 }
 
 #square_3 {
 	position: absolute;
-	border-right: 1px dashed #181818;
+	border-right: 1px dashed #494949;
 	width: 423px;
 	height: 424px;
 }
@@ -58,7 +62,7 @@ body {
 #square_4 {
 	position: absolute;
 	left: 424px;
-	border-bottom: 1px dashed #181818;
+	border-bottom: 1px dashed #494949;
 	width: 262px;
 	height: 261px;
 }
@@ -67,7 +71,7 @@ body {
 	position: absolute;
 	top: 262px;
 	left:524px;
-	border-left: 1px dashed #181818;
+	border-left: 1px dashed #494949;
 	width: 161px;
 	height: 162px;
 }
@@ -76,7 +80,7 @@ body {
 	position: absolute;
 	top: 324px;
 	left:424px;
-	border-top: 1px dashed #181818;
+	border-top: 1px dashed #494949;
 	width: 100px;
 	height: 99px;
 }
@@ -85,7 +89,7 @@ body {
 	position: absolute;
 	top: 262px;
 	left:424px;
-	border-right: 1px dashed #181818;
+	border-right: 1px dashed #494949;
 	width: 61px;
 	height: 62px;
 }
@@ -94,7 +98,7 @@ body {
 	position: absolute;
 	top: 262px;
 	left:486px;
-	border-bottom: 1px dashed #181818;
+	border-bottom: 1px dashed #494949;
 	width: 38px;
 	height: 37px;
 }
@@ -103,7 +107,7 @@ body {
 	position: absolute;
 	top: 300px;
 	left:500px;
-	border-left: 1px dashed #181818;
+	border-left: 1px dashed #494949;
 	width: 23px;
 	height: 24px;
 }
@@ -112,7 +116,7 @@ body {
 	position: absolute;
 	top: 310px;
 	left:486px;
-	border-top: 1px dashed #181818;
+	border-top: 1px dashed #494949;
 	width: 14px;
 	height: 13px;
 }
@@ -121,7 +125,7 @@ body {
 	position: absolute;
 	top: 300px;
 	left:486px;
-	border-right: 1px dashed #181818;
+	border-right: 1px dashed #494949;
 	width: 9px;
 	height: 10px;
 }
@@ -130,7 +134,7 @@ body {
 	position: absolute;
 	top: 300px;
 	left:496px;
-	border-bottom: 1px dashed #181818;
+	border-bottom: 1px dashed #494949;
 	width: 4px;
 	height: 10px;
 }
