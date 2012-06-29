@@ -12,8 +12,18 @@ body {
 	left: 50px;
 	width: 1796px;
 	height: 1110px;
-
 } 
+
+#aa {
+	position: absolute;
+	font-size: 190px;
+	font-family: arial;
+	color: white;
+	top: 225px;
+	left: 200px;
+	width: 160px;
+	height: 80px;
+}
 
 #curve {
 	position: absolute;
