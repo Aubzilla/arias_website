@@ -44,5 +44,13 @@ body {
 	height: 162px;
 }
 
+img {
+	opacity: 0.5;
+}
+
+img:hover {
+	opacity: 1.0;
+}
+
 
 
