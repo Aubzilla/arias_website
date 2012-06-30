@@ -14,38 +14,35 @@ body {
 	height: 1110px;
 } 
 
-img{
+.aa {
 	position:absolute;
 	top: 290px;
 	left: 240px;
 	background-image:url("image/aa.png");
-	background-position: -158px -102px;
-	width: 80px;
+	background-position: -229px 0px;
+	width: 76px;
 	height: 102px;
 }
 
-img:hover{
+.aa:hover {
 	position:absolute;
 	top: 290px;
 	left: 240px;
 	background-image:url("image/aa.png");
 	background-position:-76px -0px;
-	width: 80px;
+	width: 76px;
 	height: 102px;
 }
 
-.a2{
+.aa1 {
 	position:absolute;
 	top: 290px;
-	left: 240px;
+	left: 320px;
 	background-image:url("image/aa.png");
-	background-position: 10px, 10px;
-	background-repeat: no-repeat; 
-	width: 75px;
+	background-position: -229px 0px;
+	width: 76px;
 	height: 102px;
 }
-
-
 
 #curve {
 	position: absolute;
@@ -60,7 +57,7 @@ img:hover{
 
 #square_3 {
 	position: absolute;
-	background-color: DarkSlateGray;
+	background-color: grey;
 	width: 424px;
 	height: 424px;
 	z-index: 9;
