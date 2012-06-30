@@ -14,13 +14,24 @@ body {
 	height: 1110px;
 } 
 
-.a1 {
+img{
 	position:absolute;
 	top: 290px;
 	left: 240px;
 	background-image:url("image/aa.png");
-	width: 200px;
-	height: 200px;
+	background-position: -158px -102px;
+	width: 80px;
+	height: 102px;
+}
+
+img:hover{
+	position:absolute;
+	top: 290px;
+	left: 240px;
+	background-image:url("image/aa.png");
+	background-position:-76px -0px;
+	width: 80px;
+	height: 102px;
 }
 
 .a2{
