@@ -1,0 +1,89 @@
+body {
+	margin: 0px;
+	/*background-color: #2F2F2F;*/
+	background-color: black;
+	height: 1300px;
+	z-index: -12;
+}  
+
+#golden_section {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 1796px;
+	height: 1110px;
+} 
+/*
+.aa {
+	position:absolute;
+	top: 290px;
+	left: 240px;
+	background-image:url("image/aa.png");
+	background-position: -229px 0px;
+	width: 76px;
+	height: 102px;
+}
+
+.aa:hover {
+	position:absolute;
+	top: 290px;
+	left: 240px;
+	background-image:url("image/aa.png");
+	background-position:-76px -0px;
+	width: 76px;
+	height: 102px;
+}*/
+
+.aa1 {
+	position:absolute;
+	top: 264px;
+	left: 230px;
+	background-image:url("image/aa_one_red.png");
+	background-position: 0px 0px;
+	width: 166px;
+	height: 86px;
+}
+
+#boxes_dashed {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-image: url("image/background_boxes_5.png"); 
+	background-repeat: no-repeat; 
+	width: 1796px;
+	height: 1110px;
+	z-index: 10;
+} 
+
+
+#curve {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-image: url("image/arc_only.png"); 
+	/*background-image: url("image/curve.png"); */
+	background-repeat: no-repeat; 
+	width: 1796px;
+	height: 1110px;
+	z-index: 10;
+} 
+
+#square_3 {
+	position: absolute;
+	background-color: black;
+	width: 424px;
+	height: 424px;
+	z-index: 9;
+}
+
+#square_5 {
+	position: absolute;
+	background-color: black;
+	top: 262px;
+	left:525px;
+	width: 161px;
+	height: 162px;
+}
+
+
+
