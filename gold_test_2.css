@@ -6,6 +6,23 @@ body {
 	z-index: -12;
 }  
 
+.contact {
+	font-family: arial;
+	width: 210px;
+	font-size: .75em;
+}
+
+p {
+	position: absolute;
+	color: grey;
+	top: 360px;
+	left: 210px;
+}
+
+span {
+	color: white;
+}
+
 #golden_section {
 	position: absolute;
 	top: 50px;
@@ -37,7 +54,7 @@ body {
 .aa1 {
 	position:absolute;
 	top: 264px;
-	left: 230px;
+	left: 210px;
 	background-image:url("image/aa_one_red.png");
 	background-position: 0px 0px;
 	width: 166px;
@@ -48,7 +65,7 @@ body {
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	background-image: url("image/background_boxes_6a.png"); 
+	background-image: url("image/background_boxes_6c.png"); 
 	background-repeat: no-repeat; 
 	width: 1796px;
 	height: 1110px;
@@ -60,7 +77,7 @@ body {
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	background-image: url("image/arc_only.png"); 
+	background-image: url("image/arc_only_slim_1.png"); 
 	/*background-image: url("image/curve.png"); */
 	background-repeat: no-repeat; 
 	width: 1796px;
@@ -70,7 +87,7 @@ body {
 
 #square_3 {
 	position: absolute;
-	background-color: black;
+	/*background-color: black;*/
 	width: 424px;
 	height: 424px;
 	z-index: 9;
@@ -78,7 +95,7 @@ body {
 
 #square_5 {
 	position: absolute;
-	background-color: black;
+	background-color: white;
 	top: 262px;
 	left:525px;
 	width: 161px;
