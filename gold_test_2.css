@@ -29,7 +29,8 @@ p {
 	position: absolute;
 	color: grey;
 	top: 343px;
-	left: 210px;
+	left: 200px;
+	text-align: right;
 }
 
 span {
@@ -67,7 +68,7 @@ span {
 .aa1 {
 	position:absolute;
 	top: 263px;
-	left: 210px;
+	left: 245px;
 	background-image:url("image/aa_one_red.png");
 	background-position: 0px 0px;
 	width: 166px;
@@ -108,7 +109,6 @@ span {
 
 #square_5 {
 	position: absolute;
-	background-color: white;
 	top: 262px;
 	left:525px;
 	width: 161px;
