@@ -12,10 +12,23 @@ body {
 	font-size: .75em;
 }
 
+#firm{
+	font-family: arial;
+	width: 210px;
+	font-size: 1.9em;
+	color: #D8D8D8;
+}
+
+#arias{
+	color: #E23435;
+}
+
+
+
 p {
 	position: absolute;
 	color: grey;
-	top: 360px;
+	top: 343px;
 	left: 210px;
 }
 
@@ -53,7 +66,7 @@ span {
 
 .aa1 {
 	position:absolute;
-	top: 264px;
+	top: 263px;
 	left: 210px;
 	background-image:url("image/aa_one_red.png");
 	background-position: 0px 0px;
