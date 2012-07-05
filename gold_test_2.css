@@ -15,12 +15,17 @@ body {
 #firm{
 	font-family: arial;
 	width: 210px;
-	font-size: 1.9em;
+	/*font-size: 1.9em;*/
+	font-size: 21px;
 	color: #D8D8D8;
 }
 
 #arias{
 	color: #E23435;
+}
+
+a:link, a:visited {
+	text-decoration: none;
 }
 
 
