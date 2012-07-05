@@ -28,8 +28,6 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
-
-
 p {
 	position: absolute;
 	color: grey;
@@ -49,26 +47,6 @@ span {
 	width: 1796px;
 	height: 1110px;
 } 
-/*
-.aa {
-	position:absolute;
-	top: 290px;
-	left: 240px;
-	background-image:url("image/aa.png");
-	background-position: -229px 0px;
-	width: 76px;
-	height: 102px;
-}
-
-.aa:hover {
-	position:absolute;
-	top: 290px;
-	left: 240px;
-	background-image:url("image/aa.png");
-	background-position:-76px -0px;
-	width: 76px;
-	height: 102px;
-}*/
 
 .aa1 {
 	position:absolute;
