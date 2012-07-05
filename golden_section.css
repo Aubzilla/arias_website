@@ -59,6 +59,8 @@ body {
 	position: absolute;
 	left: 424px;
 	border-bottom: 1px dashed #494949;
+	background-image: url("image/water_wise_1.png"); 
+	background-repeat: no-repeat; 
 	width: 262px;
 	height: 261px;
 }

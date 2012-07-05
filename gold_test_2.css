@@ -107,6 +107,24 @@ span {
 	z-index: 9;
 }
 
+#square_4 {
+	position: absolute;
+	left: 424px;
+	border-bottom: 1px dashed #494949;
+	width: 262px;
+	height: 261px;
+}
+
+#square_4_tall {
+	position: absolute;
+	left: 424px;
+	border-bottom: 1px dashed #494949;
+	background-image: url("image/water_wise_1_faint.jpg"); 
+	background-repeat: no-repeat; 
+	width: 262px;
+	height: 423px;
+}
+
 #square_5 {
 	position: absolute;
 	top: 262px;
@@ -114,6 +132,10 @@ span {
 	width: 161px;
 	height: 162px;
 }
+
+
+
+
 
 
 
