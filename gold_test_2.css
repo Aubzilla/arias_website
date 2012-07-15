@@ -6,6 +6,106 @@ body {
 	z-index: -12;
 }  
 
+.thumb {
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	color:white;
+	background-color: grey;
+}
+
+.thumb:hover {
+	background-color:orange;
+}
+
+#thumb_container {
+	position: absolute;
+	top: 475px;
+	left: 50px;
+	z-index: 11;
+	
+}
+
+#thumb_position_1 {
+	top: 57px;
+	left: 57px;
+}
+
+#thumb_position_2 {
+	top: 57px;
+	left: 214px;
+}
+
+#thumb_position_3 {
+	top: 57px;
+	left: 371px;
+}
+
+#thumb_position_4 {
+	top: 57px;
+	left: 528px;
+}
+
+#thumb_position_5 {
+	top: 214px;
+	left: 57px;
+}
+
+#thumb_position_6 {
+	top: 214px;
+	left: 214px;
+}
+
+#thumb_position_7 {
+	top: 214px;
+	left: 371px;
+}
+
+#thumb_position_8 {
+	top: 214px;
+	left: 528px;
+}
+
+#thumb_position_9 {
+	top: 371px;
+	left: 57px;
+}
+
+#thumb_position_10 {
+	top: 371px;
+	left: 214px;
+}
+
+#thumb_position_11 {
+	top: 371px;
+	left: 371px;
+}
+
+#thumb_position_12 {
+	top: 371px;
+	left: 528px;
+}
+
+#thumb_position_13 {
+	top: 528px;
+	left: 57px;
+}
+
+#thumb_position_14 {
+	top: 528px;
+	left: 214px;
+}
+
+#thumb_position_15 {
+	top: 528px;
+	left: 371px;
+}
+
+#thumb_position_16 {
+	top: 528px;
+	left: 528px;
+}
+
 .contact {
 	font-family: arial;
 	width: 210px;
@@ -81,6 +181,15 @@ span {
 	height: 1110px;
 	z-index: 10;
 } 
+
+
+#square_2 {
+	position: absolute;
+	background-color: maroon;
+	top:424px;
+	width: 686px;
+	height: 685px;
+}
 
 #square_3 {
 	position: absolute;
