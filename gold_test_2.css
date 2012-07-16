@@ -11,7 +11,7 @@ body {
 	width: 100px;
 	height: 100px;
 	color:white;
-	background-color: grey;
+	background-color: #E23435;
 }
 
 .thumb:hover {
@@ -20,8 +20,11 @@ body {
 
 #thumb_container {
 	position: absolute;
-	top: 475px;
+	top: 476px;
 	left: 50px;
+	height: 685px;
+	width: 686px;
+	background-color: #191919;
 	z-index: 11;
 	
 }
@@ -185,7 +188,7 @@ span {
 
 #square_2 {
 	position: absolute;
-	background-color: maroon;
+	background-color: none;
 	top:424px;
 	width: 686px;
 	height: 685px;
