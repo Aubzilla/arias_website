@@ -11,7 +11,8 @@ body {
 	width: 100px;
 	height: 100px;
 	color:white;
-	background-color: #E23435;
+	/*background-color: #E23435;*/
+	background-color: #191919;
 }
 
 .thumb:hover {
@@ -24,87 +25,87 @@ body {
 	left: 50px;
 	height: 685px;
 	width: 686px;
-	background-color: #191919;
+	/*background-color: #191919;*/
 	z-index: 11;
 	
 }
 
-#thumb_position_1 {
+#thumb_position_001 {
 	top: 57px;
 	left: 57px;
 }
 
-#thumb_position_2 {
+#thumb_position_002 {
 	top: 57px;
 	left: 214px;
 }
 
-#thumb_position_3 {
+#thumb_position_003 {
 	top: 57px;
 	left: 371px;
 }
 
-#thumb_position_4 {
+#thumb_position_004 {
 	top: 57px;
 	left: 528px;
 }
 
-#thumb_position_5 {
+#thumb_position_005 {
 	top: 214px;
 	left: 57px;
 }
 
-#thumb_position_6 {
+#thumb_position_006 {
 	top: 214px;
 	left: 214px;
 }
 
-#thumb_position_7 {
+#thumb_position_007 {
 	top: 214px;
 	left: 371px;
 }
 
-#thumb_position_8 {
+#thumb_position_008 {
 	top: 214px;
 	left: 528px;
 }
 
-#thumb_position_9 {
+#thumb_position_009 {
 	top: 371px;
 	left: 57px;
 }
 
-#thumb_position_10 {
+#thumb_position_010 {
 	top: 371px;
 	left: 214px;
 }
 
-#thumb_position_11 {
+#thumb_position_011 {
 	top: 371px;
 	left: 371px;
 }
 
-#thumb_position_12 {
+#thumb_position_012 {
 	top: 371px;
 	left: 528px;
 }
 
-#thumb_position_13 {
+#thumb_position_013 {
 	top: 528px;
 	left: 57px;
 }
 
-#thumb_position_14 {
+#thumb_position_014 {
 	top: 528px;
 	left: 214px;
 }
 
-#thumb_position_15 {
+#thumb_position_015 {
 	top: 528px;
 	left: 371px;
 }
 
-#thumb_position_16 {
+#thumb_position_016 {
 	top: 528px;
 	left: 528px;
 }
@@ -172,19 +173,17 @@ span {
 	z-index: 10;
 } 
 
-
 #curve {
 	position: absolute;
 	top: 50px;
 	left: 50px;
-	background-image: url("image/arc_only_slim_1.png"); 
+	background-image: url("image/arc_only_slim_1_crop.png"); 
 	/*background-image: url("image/curve.png"); */
 	background-repeat: no-repeat; 
 	width: 1796px;
 	height: 1110px;
 	z-index: 10;
 } 
-
 
 #square_2 {
 	position: absolute;
@@ -226,6 +225,30 @@ span {
 	left:525px;
 	width: 161px;
 	height: 162px;
+}
+
+#template {
+	position: absolute;
+	background-color: #191919;
+	top: 212px;
+	left:900px;
+	width: 686px;
+	height: 685px;
+}
+
+#template_image{
+	position: absolute;
+	background-color: grey;
+	width: 686px;
+	height: 424px;
+}
+
+#template_text{
+	position: absolute;
+	background-color: green;
+	top: 434px;
+	width: 686px;
+	height: 262px;
 }
 
 
