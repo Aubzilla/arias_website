@@ -33,6 +33,8 @@ body {
 #thumb_position_001 {
 	top: 57px;
 	left: 57px;
+	background-image: url("image/highline_large_01.jpg"); 
+	background-position: -500px -400px;
 }
 
 #thumb_position_002 {
@@ -213,7 +215,7 @@ span {
 	position: absolute;
 	left: 424px;
 	border-bottom: 1px dashed #494949;
-	background-image: url("image/water_wise_1_faint.jpg"); 
+	background-image: url("image/water_wise_01_faint.jpg"); 
 	background-repeat: no-repeat; 
 	width: 262px;
 	height: 423px;
@@ -229,27 +231,35 @@ span {
 
 #template {
 	position: absolute;
-	background-color: #191919;
-	top: 212px;
-	left:900px;
-	width: 686px;
-	height: 685px;
+	/*
+	background-image: url("image/water_wise_large_01.jpg"); 
+	background-image: url("image/parkitecture_large_01.jpg"); 
+	background-image: url("image/dbm_large_01.jpg"); 
+	background-image: url("image/bahamas_large_01.jpg");*/
+	background-image: url("image/highline_large_01.jpg"); 
+	background-repeat: no-repeat; 
+	left:686px;
+	width: 1110px;
+	height: 1110px;
 }
+
 
 #template_image{
 	position: absolute;
-	background-color: grey;
-	width: 686px;
+	background-color: none;
+	width: 424px;
 	height: 424px;
 }
 
 #template_text{
 	position: absolute;
-	background-color: green;
-	top: 434px;
-	width: 686px;
+	background-color: none;
+	top: 424px;
+	width: 424px;
 	height: 262px;
 }
+
+
 
 
 
