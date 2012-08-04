@@ -27,7 +27,6 @@ body {
 	width: 686px;
 	/*background-color: #191919;*/
 	z-index: 11;
-	
 }
 
 #thumb_position_001 {
@@ -242,7 +241,6 @@ span {
 	width: 1110px;
 	height: 1110px;
 }
-
 
 #template_image{
 	position: absolute;
