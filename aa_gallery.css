@@ -29,6 +29,11 @@ body {
 	z-index: 11;
 }
 
+#galleria{ 
+	width: 600px; 
+	height: 600px; 
+	background: black;
+}
 
 .contact {
 	font-family: arial;
@@ -90,7 +95,7 @@ span {
 	background-repeat: no-repeat; 
 	width: 1796px;
 	height: 1110px;
-	z-index: 10;
+	z-index: 1;
 } 
 
 #curve {

@@ -5,6 +5,9 @@
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 		<title>Golden Section</title> 
 		<link rel="stylesheet" href="aa_gallery.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+		<script src="galleria/galleria-1.2.8.min.js"></script>
+		<script src='lib/golden_section.js' type="text/javascript" charset="utf-8"></script>
 	</head>   
 	<body> 
 		<div id="golden_section">
@@ -33,8 +36,15 @@
 			</p>
 		</div>
 		<div id="thumb_container">
+			<div id="galleria">
+				<img src="image/highline_large_01.jpg">
+				<img src="image/bahamas_large_01.jpg">
+				<img src="image/water_wise_large_01.jpg">
+			</div>
 		</div>
-		<script src='lib/jquery-1.6.1.js' type="text/javascript" charset="utf-8"></script>
-		<script src='lib/golden_section.js' type="text/javascript" charset="utf-8"></script>
+		<script>
+			Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+			Galleria.run('#galleria');
+		</script>
 	</body>
 </html>                            
