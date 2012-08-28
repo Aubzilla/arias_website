@@ -1,180 +1,32 @@
 body {
 	margin: 0px;
-	/*background-color: #2F2F2F;*/
-	background-color: black;
-	height: 1300px;
-	z-index: -12;
+	background-color: #181818;
 }  
 
-.thumb {
-	position:absolute;
-	width: 100px;
-	height: 100px;
-	color:white;
-	/*background-color: #E23435;*/
-	background-color: #191919;
+#header {
+	width: 900px;
+	height: 200px;
+	background-color: #282828 ;
 }
 
-.thumb:hover {
-	background-color:orange;
-}
-
-#thumb_container {
-	position: absolute;
-	top: 538px;
-	left: 92px;
-	height: 685px;
-	width: 686px;
-	/*background-color: #191919;*/
-	z-index: 11;
+#container {
+	background-color: red;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #galleria{ 
-	width: 600px; 
+	width: 900px; 
 	height: 600px; 
 	background: black;
 }
 
-.contact {
-	font-family: arial;
-	width: 210px;
-	font-size: .75em;
+#footer{
+	width: 900px;
+	height: 50px;
+	background-color: #282828;
 }
-
-#firm{
-	font-family: arial;
-	width: 210px;
-	/*font-size: 1.9em;*/
-	font-size: 21px;
-	color: #D8D8D8;
-}
-
-#arias{
-	color: #E23435;
-}
-
-a:link, a:visited {
-	text-decoration: none;
-}
-
-p {
-	position: absolute;
-	color: grey;
-	top: 343px;
-	left: 200px;
-	text-align: right;
-}
-
-span {
-	color: white;
-}
-
-#golden_section {
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	width: 1796px;
-	height: 1110px;
-} 
-
-.aa1 {
-	position:absolute;
-	top: 263px;
-	left: 245px;
-	background-image:url("image/aa_one_red.png");
-	background-position: 0px 0px;
-	width: 166px;
-	height: 86px;
-}
-
-#boxes_dashed {
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	background-image: url("image/background_boxes_6d.png"); 
-	background-repeat: no-repeat; 
-	width: 1796px;
-	height: 1110px;
-	z-index: 1;
-} 
-
-#curve {
-	position: absolute;
-	top: 50px;
-	left: 50px;
-	background-image: url("image/arc_only_slim_1_crop.png"); 
-	/*background-image: url("image/curve.png"); */
-	background-repeat: no-repeat; 
-	width: 1796px;
-	height: 1110px;
-	z-index: 10;
-} 
-
-#square_2 {
-	position: absolute;
-	background-color: none;
-	top:424px;
-	width: 686px;
-	height: 685px;
-}
-
-#square_3 {
-	position: absolute;
-	/*background-color: black;*/
-	width: 424px;
-	height: 424px;
-	z-index: 9;
-}
-
-#square_4 {
-	position: absolute;
-	left: 424px;
-	border-bottom: 1px dashed #494949;
-	width: 262px;
-	height: 261px;
-}
-
-/*
-#square_4_tall {
-	position: absolute;
-	left: 424px;
-	border-bottom: 1px dashed #494949;
-	background-image: url("image/water_wise_01_faint.jpg"); 
-	background-repeat: no-repeat; 
-	width: 262px;
-	height: 423px;
-}*/
-
-#square_5 {
-	position: absolute;
-	top: 262px;
-	left:525px;
-	width: 161px;
-	height: 162px;
-}
-
-#template {
-	position: absolute;
-	left:686px;
-	width: 1110px;
-	height: 1110px;
-}
-
-#template_image{
-	position: absolute;
-	background-color: none;
-	width: 424px;
-	height: 424px;
-}
-
-#template_text{
-	position: absolute;
-	background-color: none;
-	top: 424px;
-	width: 424px;
-	height: 262px;
-}
-
 
 
 
