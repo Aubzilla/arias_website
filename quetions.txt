@@ -1,1 +1,0 @@
-What is the best way to implement thumbnails that link to large images. 

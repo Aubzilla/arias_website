@@ -8,6 +8,10 @@ p {
 	background-color: transparent
 }
 
+li, a{
+	color: white;
+}
+
 .sentence{
 		font-size: 1.3em;
 		padding-top: 20px;
@@ -55,11 +59,12 @@ p {
 
 }
 
-#galleria{ 
+#galleria { 
 	width: 910px; 
 	height: 600px; 
 	background: black;
 }
+
 
 #footer{
 	width: 910px;
