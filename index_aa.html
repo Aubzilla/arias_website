@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 //EN">
+<!DOCTYPE HTML">
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -15,9 +15,9 @@
 			<ul>
 			<li><a id="home" href="index_aa.html">Home</a></li>
 			<li><a id="commercial" href="">Commercial Projects</a></li>
-			<li><a id="residential" href="residential.html">Residential Projects</a></li>
-			<li><a id="competition" href="competition.html">Competition Projects</a></li>
-			<li><a id="background" href="background.html">Background Projects</a></li>
+			<li><a id="residential" href="">Residential Projects</a></li>
+			<li><a id="competition" href="">Competition Projects</a></li>
+			<li><a id="background" href="">Background Projects</a></li>
 			</ul>
 			</div>
 			<div id="galleria"></div>
@@ -27,18 +27,33 @@
 	
 		Galleria.loadTheme('galleria/themes/twelve/galleria.twelve.min.js');
 		Galleria.run('#galleria', {
-			dataSource: data_1,
+			dataSource: data_0,
+		});
+		
+		$('#commercial').click(function(e) {
+			e.preventDefault();
+			///for some reason, this variable cannot be accessed via the console
+			var element = "variable declared inside";
+			var elem = $("#galleria");
+			elem.data("galleria").load(data_1);
 		});
 
-		$('#commercial').click(function() {
-		   	alert ("still at index page");
-		   //Galleria.get(0).load(data_3);
-		   //var ob = Galleria.get(0);
-		   //console.log(ob);
-			
+		$('#residential').click(function(e) {
+			e.preventDefault();
+			var elem = $("#galleria");
+			elem.data("galleria").load(data_2);
 		});
-
-		$('#residential').click(function() {
+		
+		$('#competition').click(function(e) {
+			e.preventDefault();
+			var elem = $("#galleria");
+			elem.data("galleria").load(data_3);
+		});
+		
+		$('#competition').click(function(e) {
+			e.preventDefault();
+			var elem = $("#galleria");
+			elem.data("galleria").load(data_4);
 		});
 	
 	</script>

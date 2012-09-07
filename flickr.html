@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- everything here is 100% free to use as you wish -->
+    <meta charset="utf-8">
+    <title>Galleria – Photo categories</title>
+    <link rel="stylesheet" href="flickr.css" type="text/css" media="screen" title="no title" charset="utf-8">
+
+    <!-- load jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- load Galleria -->
+    <script src="galleria/galleria-1.2.8.min.js"></script>
+
+    <!-- load flickr plugin -->
+    <script src="galleria/plugins/flickr/galleria.flickr.min.js"></script>
+    
+    <!-- you won data -->
+    <script src="lib/data_flickr.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <a href="http://www.flickr.com/photos/davidhellsing/sets/72057594078378762/">Asia</a>
+            <a href="http://www.flickr.com/photos/davidhellsing/sets/72057594102602315/">Asia 2</a>
+        </div>
+        <a id="fullscreen" href="#">Enter fullscreen</a>
+        <div id="gallery">
+            <div id="galleria"></div>
+        </div>
+    </div>
+    <script>
+	// load the theme
+        Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+
+        // create a flickr instance
+        var flickr = new Galleria.Flickr();
+
+        // cache the gallery
+        var elem = $('#galleria');
+
+        // create and append the loader growl
+        var loader = $('<div>', {
+            id: 'loader'
+        }).appendTo('#gallery');
+
+        // a local var used later
+        var set;
+
+        // set flickr to fetch description and increase the photo limit
+        flickr.setOptions({
+            max: 100,
+            description: true
+        });
+
+        // attach event handler for the menu
+        $('#menu a').click(function(e) {
+
+            e.preventDefault();
+
+            // toggle active class
+            $(this).addClass('active').siblings('.active').removeClass('active');
+
+            // extract the set id from the link href
+            set = this.href.split('/');
+            set = set[set.length-2];
+
+            // add loader text and show
+            loader.text('Loading '+$(this).text()).show();
+	    
+	    ////////////////////////////////Address at hacker hours
+	    ////////////////////////////////the variable isn't set or accessible to the console
+	    var inside = "inside click";
+
+            // load the set
+            flickr.set(set, function(data) {
+
+                // hide the loader
+                loader.fadeOut('fast');
+
+                // check if galleria has been initialized
+                if (elem.data('galleria')) {
+
+                    // load galleria with the new data
+		    // elem.data('galleria').load( data );
+		    
+			////////////////////////////////Address at hacker hours
+			////////////////////////////////Here the variable is accessible
+			
+			elem.data('galleria').load( data_1 );
+
+                // else initialize galleria (1st time)
+                } else {
+                    elem.galleria({
+		    
+                        // add the data as dataSource
+                        dataSource: data,
+
+                        // add a custom fullscreen button
+                        extend: function() {
+                            $('#fullscreen').click(this.proxy(function(e) {
+                                e.preventDefault();
+
+                                // call the enterFullscreen() method from the galleria API
+                                this.enterFullscreen();
+                            }));
+                        }
+                    });
+                }
+            });
+        });
+
+        // trigger a click onload so that the first gallery will be displayed when entering
+        $('#menu a:first-child').click();
+	
+	////////////////////////////////Address at hacker hours
+	////////////////////////////////Here the variable is accessible
+	var outside = "outside click";
+    </script>
+</body>
+</html>
