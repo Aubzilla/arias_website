@@ -14,7 +14,7 @@
 			<div id="menu">
 			<ul>
 			<li><a id="home" href="index_aa.html">Home</a></li>
-			<li><a id="commercial" href="commercial.html">Commercial Projects</a></li>
+			<li><a id="commercial">Commercial Projects</a></li>
 			<li><a id="residential" href="residential.html">Residential Projects</a></li>
 			<li><a id="competition" href="competition.html">Competition Projects</a></li>
 			<li><a id="background" href="background.html">Background Projects</a></li>
@@ -31,6 +31,8 @@
 		});
 
 		$('#commercial').click(function() {
+			alert ("Hello, Eric!");
+			Galleria.get(0).load(data_2);			
 		});
 
 		$('#residential').click(function() {
