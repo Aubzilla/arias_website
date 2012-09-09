@@ -17,9 +17,9 @@
 			<li><a id="commercial" href="">commercial</a></li>
 			<li><a id="residential" href="">residential</a></li>
 			<li><a id="competition" href="">competitions</a></li>
-			<li><a id="background" href="">miscellaneous</a></li>
-			<li><a id="background" href="">about</a></li>
-			<li><a id="background" href="">contact</a></li>
+			<li><a id="miscellaneous" href="">miscellaneous</a></li>
+			<li><a id="about" href="">about</a></li>
+			<li><a id="contact" href="">contact</a></li>
 			</ul>
 			</div>
 			<div id="galleria"></div>
@@ -52,10 +52,22 @@
 			elem.data("galleria").load(data_3);
 		});
 		
-		$('#background').click(function(e) {
+		$('#miscellaneous').click(function(e) {
 			e.preventDefault();
 			var elem = $("#galleria");
 			elem.data("galleria").load(data_4);
+		});
+		
+		$('#about').click(function(e) {
+			e.preventDefault();
+			var elem = $("#galleria");
+			elem.data("galleria").load(data_5);
+		});
+		
+		$('#contact').click(function(e) {
+			e.preventDefault();
+			var elem = $("#galleria");
+			elem.data("galleria").load(data_6);
 		});
 	
 	</script>

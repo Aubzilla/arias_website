@@ -6,7 +6,7 @@ body {
 #header {
 	margin-top:50px;
 	width: 910px;
-	height:125px;
+	height:115px;
 	background-color: transparent;
 	background-image: url("image/arias_architecture_07.png");
 	background-repeat: no-repeat;
@@ -81,6 +81,44 @@ a:hover{
 	border-top: 1px dotted #282828;
 	border-bottom: 1px dotted #282828
 }
+
+#about_info {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	width: 800px;
+	height: 100px;
+	font-family: verdana;
+	font-size: .9em;
+}
+
+#about_info h2 {
+
+	font-size: 1.6em;
+}
+
+#about_info p {
+
+	font-size: 1.2em;
+}
+
+#accent {
+	/*ARIAS RED*/
+	color: #E03535;
+}
+
+img.thumb{
+	
+	border: 1px solid grey;
+	margin: 30px;
+}
+
+img.thumb:hover{
+	border: 1px solid white;
+}
+
+
 
 
 
