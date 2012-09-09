@@ -1,5 +1,4 @@
 body {
-
 	background-color: black
 }  
 
@@ -13,14 +12,20 @@ body {
 }
 
 ul {
-	margin-top: 10px;
-	margin-left: -42px;
+	/*see page 344-346*/
+	width: 900px;
 	list-style-type: none;
+	list-style-position: inside;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 0px;
 }
 
 li {
+	/*see page 344-346*/
 	display: inline;
-	padding: 30px;
+	margin: 28px;
 }
 
 
@@ -30,7 +35,6 @@ a {
 	font-weight: normal;
 	color: #B3B3B3;
 	text-decoration: none;
-	/*text-transform: uppercase;*/
 }
 
 a:hover{
