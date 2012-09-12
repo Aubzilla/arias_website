@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="aa_gallery.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 		<script src="galleria/galleria-1.2.8.min.js"></script>
-		<script src="lib/data.js"></script>
+		<script src="lib/data_new.js"></script>
 	</head>   
 	<body>  
 		<div id="container">
@@ -37,37 +37,37 @@
 			///for some reason, this variable cannot be accessed via the console
 			var element = "variable declared inside";
 			var elem = $("#galleria");
-			elem.data("galleria").load(data_1);
+			elem.data("galleria").load(data_commercial);
 		});
 
 		$('#residential').click(function(e) {
 			e.preventDefault();
 			var elem = $("#galleria");
-			elem.data("galleria").load(data_2);
+			elem.data("galleria").load(data_residential);
 		});
 		
 		$('#competition').click(function(e) {
 			e.preventDefault();
 			var elem = $("#galleria");
-			elem.data("galleria").load(data_3);
+			elem.data("galleria").load(data_competition);
 		});
 		
 		$('#miscellaneous').click(function(e) {
 			e.preventDefault();
 			var elem = $("#galleria");
-			elem.data("galleria").load(data_4);
+			elem.data("galleria").load(data_miscellaneous);
 		});
 		
 		$('#about').click(function(e) {
 			e.preventDefault();
 			var elem = $("#galleria");
-			elem.data("galleria").load(data_5);
+			elem.data("galleria").load(data_about);
 		});
 		
 		$('#contact').click(function(e) {
 			e.preventDefault();
 			var elem = $("#galleria");
-			elem.data("galleria").load(data_6);
+			elem.data("galleria").load(data_contact);
 		});
 	
 	</script>
